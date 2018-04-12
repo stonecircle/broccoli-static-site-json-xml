@@ -29,7 +29,7 @@ describe('basic tests', function () {
         input.write({
           content: {
             'my-post.json': `{
-              "data": [{
+              "data": {
                 "type": "contents",
                 "id": "my-post",
                 "attributes": {
@@ -55,7 +55,7 @@ describe('basic tests', function () {
                     }
                   }
                 }
-              }]
+              }
             }`,
           },
         });
