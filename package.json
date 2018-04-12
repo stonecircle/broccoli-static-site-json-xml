@@ -1,0 +1,31 @@
+{
+  "name": "broccoli-static-site-json-xml",
+  "version": "1.0.0",
+  "description": "RSS feed generator that works with broccoli-static-site-json trees",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test nyc -a mocha --recursive",
+    "test-watch": "NODE_ENV=test mocha --recursive -w --reporter min",
+    "coverage": "NODE_ENV=test nyc -a report --reporter=text-lcov mocha > coverage/lcov.info"
+  },
+  "author": "Chris Manson <chris@stonecircle.io>",
+  "repository": "https://github.com/stonecircle/broccoli-static-site-json-xml",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli": "^1.1.4",
+    "broccoli-test-helper": "^1.2.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.0.4",
+    "nyc": "^11.4.1",
+    "xml2js": "^0.4.19"
+  },
+  "dependencies": {
+    "broccoli-plugin": "^1.3.0",
+    "lodash": "^4.17.5",
+    "rss": "^1.2.2",
+    "walk-sync": "^0.3.2"
+  }
+}
