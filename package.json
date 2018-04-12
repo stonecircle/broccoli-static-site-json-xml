@@ -1,6 +1,6 @@
 {
   "name": "broccoli-static-site-json-xml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "RSS feed generator that works with broccoli-static-site-json trees",
   "main": "index.js",
   "scripts": {
